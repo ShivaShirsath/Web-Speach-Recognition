@@ -1,4 +1,4 @@
-record.addEventListener("click", function () {
+document.querySelector("button").addEventListener("click", function () {
   var speech = true;
   window.SpeechRecognition = window.webkitSpeechRecognition;
 

@@ -11,7 +11,7 @@ document.querySelector("button").addEventListener("click", function () {
       .map((result) => result.transcript)
       .join("");
 
-    document.getElementById("converted").value = transcript;
+    document.querySelector("input").value = transcript;
   });
 
   if (speech == true) {

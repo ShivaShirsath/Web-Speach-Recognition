@@ -1,21 +1,15 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <title>Web</title>
-    <link href="docs/style.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-
-  <body onload="
-      var file = new XMLHttpRequest();
-      file.open('GET', 'docs/index.html', true);
-      file.onreadystatechange = function() {
-      if (file.readyState === 4) {
-        document.body.innerHTML = file.responseText;
-      }
-    };
-    file.send();
-  "></body>
-  <script src="docs/script.js"></script>
-
+  <body>
+    <h1>Voice to Text Converter</h1>
+    <input>
+    <button>Voice To Text</button>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
